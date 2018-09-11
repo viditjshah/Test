@@ -31,5 +31,12 @@ To set Card Button Color | app:cardButtonColor | color | setCardButtonColor(int 
 To set Card Background Color | app:cardBackgroundColor | color | setCardBackgroundColor(int cardTextColor)
 To set Capsule Text Color | app:capsuleTextColor | color | setCapsuleTextColor(int cardTextColor)
 To set Capsule Boarder Color | app:capsuleBoarderColor | color | setCapsuleTextColor(int cardTextColor)
+To set Date Format | app:dateFormat | string | setDateFormat(String dateFormat)
+To set Input Hint | app:inputHint | string | setInputHint(String dateFormat)
+To set Sent Button Icon  | app:sendBtnIcon | Drawable | setSendBtnIcon(Drawable sendButtonIcon)
+To set Sent Button Visibility  | app:showSendButton | boolean | showSendButton(boolean show)
+To set Connect Text  | app:connectionText | string | setConnectText(String subTitle) 
+To set DisConnect Text  | app:disconnectedText | string | setDiconnectedText(String subTitle) 
+To set Connecting Text  | app:conntectingText | string | setConnectingText(String subTitle) 
 
 
