@@ -9,4 +9,4 @@ Description | XML Property Name | Values/type |  Java method
 To set Header Visibility | app:headerVisibility | boolean | setHeaderVisibility(boolean visibility)
 To set Header Background Color | app:headerBackground| color | setHeaderBackgroundColor(int color)
 To set Header Back Button | app:headerBackButton| drawable | setHeaderBackButton(Drawable backImage)
-To set Header User Image | app:headerBackButton| drawable,String | setHeaderUserImage(int imageUrl),setHeaderUserImage(String imageUrl)
+To set Header User Image | -----| drawable,String | setHeaderUserImage(int imageUrl), setHeaderUserImage(String imageUrl)
