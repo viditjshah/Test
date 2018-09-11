@@ -23,6 +23,13 @@ To set Message Time Text Color | app:tStampTextColor | color |  setTStampTextCol
 To set Bubble Evalation | app:bubbleChatElevation | float |  setBubbleElevation(float bubbleElevation)
 To set Bubble Corner | app:bubbleChatCorner | float |  setBubbleCorner(float bubbleCorner)
 To set Bubble Font | ------- | string |  setBubbleFont(String fontType)
-
+To set Send User Image | -----| drawable,String | setSendUserImage(int imageUrl), setHeaderUserImage(String imageUrl)
+To set Send User Visibility | app:sendUserImageVisible | boolean | setSendUserImageVisible(boolean visibility)
+To set Receive User Visibility | app:receiveUserImageVisible | boolean | setReceiveUserImageVisible(boolean visibility)
+To set Card Text Color | app:cardTextColor | color | setCardTextColor(int cardTextColor)
+To set Card Button Color | app:cardButtonColor | color | setCardButtonColor(int cardTextColor)
+To set Card Background Color | app:cardBackgroundColor | color | setCardBackgroundColor(int cardTextColor)
+To set Capsule Text Color | app:capsuleTextColor | color | setCapsuleTextColor(int cardTextColor)
+To set Capsule Boarder Color | app:capsuleBoarderColor | color | setCapsuleTextColor(int cardTextColor)
 
 
