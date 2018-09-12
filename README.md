@@ -3,9 +3,12 @@
 Description | XML Property Name | Values/type |  Java method |  Example
 ------------ | ------------- | ------------- | ------------- | -------------
 To set Header Visibility | app:headerVisibility | boolean | setHeaderVisibility(boolean visibility) | app:headerVisibility="true" <br/> chatView.setHeaderVisibility(true);
-To set Header Background Color | app:headerBackground| color | setHeaderBackgroundColor(int color)
-To set Header User Image | -----| drawable,String | setHeaderUserImage(int imageUrl), setHeaderUserImage(String imageUrl)
-To set Header Back Button | app:headerBackButton| drawable | setHeaderBackButton(Drawable backImage)
+To set Header Background Color | app:headerBackground| color | setHeaderBackgroundColor(int color) |
+app:headerBackground="@color/colorAccent" <br/> chatView.setHeaderBackgroundColor(getResources().getColor(R.color.colorAccent));
+To set Header User Image | -----| drawable,String | setHeaderUserImage(int imageUrl), setHeaderUserImage(String imageUrl) |
+chatView.setHeaderUserImage(R.drawable.ic_man);
+To set Header Back Button | app:headerBackButton| drawable | setHeaderBackButton(Drawable backImage) |
+app:headerBackButton="@drawable/ic_back" <br/> chatView.setHeaderBackButton(getResources().getDrawable(R.drawable.ic_back));
 To set Header Back Visibility | ---- | boolean | setHeaderBackButtonVisibility(boolean visible)
 To set Header Title | app:headerTitle | String | setHeaderTitle(String title)
 To set Header Title Visibility | app:headerTitleVisibility | boolean | setHeaderTitleVisibility(boolean visibility) 
