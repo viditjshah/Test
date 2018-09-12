@@ -3,8 +3,7 @@
 Description | XML Property Name | Values/type |  Java method |  Example
 ------------ | ------------- | ------------- | ------------- | -------------
 To set Header Visibility | app:headerVisibility | boolean | setHeaderVisibility(boolean visibility) | app:headerVisibility="true" <br/> chatView.setHeaderVisibility(true);
-To set Header Background Color | app:headerBackground| color | setHeaderBackgroundColor(int color) |
-app:headerBackground="@color/colorAccent" <br/> chatView.setHeaderBackgroundColor(getResources().getColor(R.color.colorAccent));
+To set Header Background Color | app:headerBackground| color | setHeaderBackgroundColor(int color) | app:headerBackground="@color/colorAccent" <br/> chatView.setHeaderBackgroundColor(getResources().getColor(R.color.colorAccent));
 To set Header User Image | -----| drawable,String | setHeaderUserImage(int imageUrl), setHeaderUserImage(String imageUrl) |
 chatView.setHeaderUserImage(R.drawable.ic_man);
 To set Header Back Button | app:headerBackButton| drawable | setHeaderBackButton(Drawable backImage) |
