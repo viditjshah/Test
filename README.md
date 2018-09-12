@@ -1,7 +1,7 @@
 
 
-Description | XML Property Name | Values/type |  Java method
------------- | ------------- | ------------- | -------------
+Description | XML Property Name | Values/type |  Java method |  Example
+------------ | ------------- | ------------- | ------------- | -------------
 To set Header Visibility | app:headerVisibility | boolean | setHeaderVisibility(boolean visibility)
 To set Header Background Color | app:headerBackground| color | setHeaderBackgroundColor(int color)
 To set Header User Image | -----| drawable,String | setHeaderUserImage(int imageUrl), setHeaderUserImage(String imageUrl)
